@@ -1,0 +1,198 @@
+/*author :Gopika J*/
+/*28/12/21*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.nav-bg{
+	background-image: url("../img/header-pattern-150.png");
+}
+.intro{
+	background-image: url("../img/intro-background.jpg");
+/*	background-repeat: no-repeat;*/
+	background-size: cover;
+}
+.vh-90{
+	height: 90vh;
+}
+.vh-85{
+	height: 85vh;
+}
+.vh-40{
+	height: 40vh;
+}
+.vh-60{
+	height: 60vh;
+}
+.vh-65{
+	height: 65vh;
+}
+.vh-20{
+	height: 20vh;
+}
+.vh-10{
+	height: 10vh;
+}
+.font{
+	font-size: 75px;
+}
+.font1{
+	font-size: 33px;
+}
+.top{
+	background-image: url("../img/top-pattern-150.png");
+}
+.img1{
+	background-image: url("../img/1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 35vh;
+	width: 23%;
+
+}
+.img2{
+	background-image: url("../img/2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 35vh;
+	width: 23%;
+}
+.img3{
+	background-image: url("../img/3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 35vh;
+	width: 23%;
+}
+.img4{
+	background-image: url("../img/4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 35vh;
+	width: 23%;
+}
+.team1{
+	background-image: url("../img/team1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 15vh;
+
+}
+.team2{
+	background-image: url("../img/team2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 15vh;
+	
+}
+.team3{
+	background-image: url("../img/team3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 15vh;
+
+}
+.link{
+	text-decoration: none;
+}
+@media only screen and (max-width: 576px){
+.intro{
+	background-image:none;
+	background-color: #95a4b7;
+/*	background-repeat: no-repeat;*/
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	
+
+}
+.vh-90{
+	height: auto;
+}
+.vh-40{
+	height: auto;
+}
+.vh-60{
+	height: auto;
+}
+.vh-65{
+	height: auto;
+}
+.vh-20{
+	height: auto;
+}
+.vh-10{
+	height: auto;
+}
+.img1{
+	/*background-image: url("../img/1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	height: 40vh;
+    width: 90%;
+    margin: 20px;
+   padding-left: 10px;
+
+    
+}
+.img2{
+	/*background-image: url("../img/2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	height: 40vh;
+	width: 90%;
+	 margin: 20px;
+	 /*padding-left: 10px;*/
+	
+}
+.img3{
+	/*background-image: url("../img/3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	height: 40vh;
+	width: 90%;
+	 margin: 20px;
+	 /*padding-left: 10px;*/
+
+}
+.img4{
+	/*background-image: url("../img/4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	height: 40vh;
+	width: 90%;
+	 margin: 20px;
+	
+	
+}
+.team1{
+	/*background-image: url("../img/team1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	height: 20vh;
+	width: 30%;
+	margin: 5px;
+
+}
+.team2{
+	/*background-image: url("../img/team2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	height: 20vh;
+	width: 30%;
+	margin: 5px;
+	
+}
+.team3{
+	/*background-image: url("../img/team3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	height: 20vh;
+	width: 30%;
+	margin: 5px;
+
+}
+}
